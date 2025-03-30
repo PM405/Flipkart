@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Shopping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: #fce4ec;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #ff4081;
+            color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://source.unsplash.com/1200x500/?fashion,women') no-repeat center;
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .shop-now {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: white;
+            color: #ff4081;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .product {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product .price {
+            color: #ff4081;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff4081;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Women's Fashion</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Offers</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Fashion for Every Woman</h1>
+        <p>Trendy & Stylish Clothes Just for You</p>
+        <a href="#" class="shop-now">Shop Now</a>
+    </section>
+    <section class="products">
+        <div class="product">
+            <img src="https://th.bing.com/th/id/R.f992b205aaefb9c85150f34b6dee676a?rik=OLgo13ytmxpW8Q&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f04%2fBeaded-Border-Tunic-Dress18T029FRSP.jpg&ehk=3r3b%2fehuQLFyHtZ0cCCCY5B4%2bOXQAhgdBIXmND8n0qM%3d&risl=&pid=ImgRaw&r=0" alt="Dress">
+            <h3>Stylish Dress</h3>
+            <p class="price">$149.99</p>
+        </div>
+        <div class="product">
+            <img src="https://image.hm.com/assets/hm/1d/1b/1d1b24379879574ccc8e1395df7e1cb3f063165c.jpg?imwidth=657" alt="Shoes">
+            <h3>Fashion Shoes</h3>
+            <p class="price">$59.99</p>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.gKekfZzcteeK8y5jmHGqwAHaHa?rs=1&pid=ImgDetMain" alt="Bag">
+            <h3>Designer Bag</h3>
+            <p class="price">$39.99</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Women's Fashion. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
